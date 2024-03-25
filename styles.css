@@ -112,22 +112,17 @@ button{
 
 .section2 .video{
     border: solid #F7DCD5 20px;
-    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* height: 400px; */
 }
 
-.section2 .video video{
-    /* height: fit-content; */
-}
 
 .section2 .text{
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-around; 
     align-items: center;
     margin-bottom: 30px;
 }
