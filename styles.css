@@ -168,7 +168,7 @@ color: rgb(59, 57, 57);
         background-size:contain;
         background-repeat: no-repeat;
         background-position: right;
-        bottom: 1;
+        /* bottom: 1; */
     }
 
     header ::after{
