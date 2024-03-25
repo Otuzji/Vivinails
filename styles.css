@@ -44,11 +44,13 @@ header ::after {
     z-index: 10;
 }
 .logo{
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 ;
+    display: flex;
+    justify-content: center;
 }
 .logo img{
-    width: 150px;
-    height: 75px;
+    width: 200px;
+    height: 100px;
 }
 
 .headertext{
