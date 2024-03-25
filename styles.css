@@ -7,6 +7,9 @@
 body{
     font-family: "Roboto", sans-serif;
     background-color: #F7DCD5;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 .section1{
     height: 100vh;
@@ -16,7 +19,7 @@ header{
     position: relative;
     flex-direction: column;
     width: 100vw;
-    height: 90%;
+    height: 85%;
     background-image: url(Images/Fotomanos.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,12 +111,12 @@ button{
 }
 
 .section2 .video{
-    border: solid white 5px;
-    margin-top: 20px;
+    border: solid #F7DCD5 20px;
+    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* height: 400px; */
+    height: 400px;
 }
 
 .section2 .video video{
