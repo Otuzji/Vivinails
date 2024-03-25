@@ -89,7 +89,10 @@ button{
     width: 150px;
     height: 50px;
     color: white;
+    cursor: pointer;
+
 }
+
 
 .imgdedos{
     display: none;
@@ -129,4 +132,23 @@ button{
 .section2 .text h2{
     font-size: 40px;
     text-align: center;
+}
+
+footer{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logofooter{
+    width: 100px;
+    height: 50px;
+}
+
+footer p{
+font-size: small;
+color: rgb(59, 57, 57);
 }
