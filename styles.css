@@ -8,13 +8,15 @@ body{
     font-family: "Roboto", sans-serif;
     background-color: #F7DCD5;
 }
-
+.section1{
+    height: 100vh;
+}
 header{
     display: flex;
     position: relative;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 90%;
     background-image: url(Images/Fotomanos.png);
     background-size: cover;
     background-repeat: no-repeat;
