@@ -9,7 +9,8 @@ body{
     background-color: #F7DCD5;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    justify-content: space-between;
+    
 }
 .section1{
     height: 100vh;
@@ -78,25 +79,24 @@ header ::after {
    display: none;
 }
 
-.boton1{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    height: 100px;
-}
-
-button{
+.botones{
     background-color: #6C4617;
     border-radius: 30px;
+    border: none;
     width: 150px;
     height: 50px;
     color: white;
     font-weight: bold;
     cursor: pointer;
-
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: ease;
 }
-
+.botones:hover {
+    background-color:#E2CDAB;
+    color: #000;
+}
 
 .imgdedos{
     display: none;
@@ -156,5 +156,69 @@ color: rgb(59, 57, 57);
         font-size: 25px;
         text-align: center;
     
+    }
+}
+
+@media screen and (min-width: 932px) {
+    .logo{
+        justify-content: flex-start;
+    }
+
+    header{
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        bottom: 1;
+    }
+
+    header ::after{
+        display: none;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        height: 100%;
+        padding: 20px 40px;
+        width: 50%;
+    }
+    
+    
+    .headertext h1{
+        font-size: 60px;
+        color: #000;
+        text-align: left;
+    }
+    
+    .headertext h3{
+        font-size: 40px;
+        text-align: left;
+    
+    }
+
+    .botones{
+        width: 220px;
+        height: 90px;
+        border-radius: 60px;
+        font-size: larger;
+    }
+    .logo img{
+        width: 250px;
+        height: 125px;
+    }
+    
+    .video{
+        width: 700px;
+        height: 700px;
+    }
+
+    .section2{
+        margin-top: 8px;
+        background-color: #DBBC9F;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
     }
 }
